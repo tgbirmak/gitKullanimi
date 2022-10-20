@@ -28,7 +28,8 @@ Switched to a new branch 'footer' ---> hem "footer" adında branch oluşturdu he
 ## git checkout -b ile oluşturulan branchler, mevcut branch imizi referans alır.
 ## git stash ---> commit öncesi değişiklileri kaydeder.
 ## git stash list --> bu değişiklikleri listeler.
-##git stash pop ---> değişiklikleri başa alır.
+##git stash pop ---> değişiklikleri başa alır.Stash listten kaldırır.
+## git stash apply --> geri alır, stash listten kaldırmaz
 https://aliozgur.gitbooks.io/git101/content/remote_repositoryler/remote_degisiklikleri_entegre_etmek.html
 
 
