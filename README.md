@@ -30,6 +30,14 @@ Switched to a new branch 'footer' ---> hem "footer" adında branch oluşturdu he
 ## git stash list --> bu değişiklikleri listeler.
 ##git stash pop ---> değişiklikleri başa alır.Stash listten kaldırır.
 ## git stash apply --> geri alır, stash listten kaldırmaz
+## git merge header  --> master branchindeyken header branchi üzerindeki değişiklikleri ekledi. Headerda yapılan Commitleri de ekledi.
+
+##(BU NEDENLE COMMİTLERİN BAŞINDA BRANCH İSMİ VE SIRASI YAZMALI. "Header 1 | birinci değişiklik gibi")
+
+##git merge ile birleşimlerde, birleşimler commitle bildirilmez. Diğer takım arkadaşları birleştirmeyi anlamaz.
+
+##git merge --squash footer,
+    git commit -m "Footer MAster ile birleştirildi"
 https://aliozgur.gitbooks.io/git101/content/remote_repositoryler/remote_degisiklikleri_entegre_etmek.html
 
 
