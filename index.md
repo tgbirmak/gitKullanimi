@@ -6,5 +6,5 @@ Burada bir açıklama gerçekleşmektedir..
 
 
 
-git diff a7965d131e7d3722..9e5f58416fa50f965 index.md
+git diff ea23c0195c26ea9c3444e1238227e53ec6fe97d3..064b3f54dcd8ac8573a8b68984eb0bcbd19acab9 index.md
 
