@@ -22,4 +22,29 @@ Switched to a new branch 'footer' ---> hem "footer" adında branch oluşturdu he
 ##git checkout master --> "master" branch ine geç.
 ## git branch -D footer ---> "footer" branchini sildi.
 ## git checkout master---> "header" branchindeki dosyaları göstermez. Sadece master branchindekileri gösterir
-## git checkout header --> headerdaki dosyalara geçer. 
+## git checkout header --> headerdaki dosyalara geçer.
+
+## git touch footer.md ---> md dosyasını oluşturur
+## git checkout -b ile oluşturulan branchler, mevcut branch imizi referans alır.
+
+
+https://aliozgur.gitbooks.io/git101/content/remote_repositoryler/remote_degisiklikleri_entegre_etmek.html
+
+
+git fetch komutu ile remote branch'deki değişiklikleri indirdikten sonra ise git log komutunu kullanarak bu remote branch'deki değişiklikler ile ilgili bilgileri görebiliriz. (değişiklik tarihi, kimin yaptığı, değişen dosyalar ve commiti sırasında girilen mesaj gibi)
+
+Değişiklikleri inceledikten sonra bunları local branch'inize entegre etmeye karar verdiğimizde ise git pull komutunu kullanmamız gerekecek
+
+Remote branchdeki değişikliklerin bilgilerini indirmek için kullanılan fetch (türkçe anlamı getirmek) ve bu değişiklikleri entegre etmek için kullanılan pull (türkçe anlamı çekmek) ifadelerinin birbirine yakın anlamları olduğu için karıştırabilirsiniz. Bu karışıklığın önüne geçmek için yapacağınız en güzel şey git pull komutunu hiç kullanmamak olacaktır. Ayrıntılar için İngilizce bir blog post olan Git: fetch and merge, don't pull inceleyebilirsiniz.
+
+Git pull komutu aslında arka arkaya iki şey yapmanızı sağlar
+
+Remote branch'deki değişiklikler ile ilgili bilgileri indirmek, yani git fetch
+Remote branch'deki değişiklikleri local branch'inize entegre etmek yani git merge
+İlerleyen bölümlerde çakışmaların tespit edilmesi, çözülmesi ve değişikliklerin entegre edilmesi konularını ayrıntılı olarak ele alacağız şimdilik sadece iş akışımızı özetleyip bu konuyu burada sonlandıralım. Akışımız özetle şöyle olacak
+
+git fetch : remote'dan güncelleme bilgilerini indir
+git diff : remote ve local arasındaki farkları incele
+git merge : değişiklikleri otomatik merge et çakışma varsa bir sonraki adıma geçin
+Çakışma olan dosyalarınızı açın ve çakışmaları düzeltin
+git add: çakışmanın giderildi ve değişiiklik Staging Area'ya alındı
