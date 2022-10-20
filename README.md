@@ -21,3 +21,5 @@ Switched to a new branch 'footer' ---> hem "footer" adında branch oluşturdu he
 
 ##git checkout master --> "master" branch ine geç.
 ## git branch -D footer ---> "footer" branchini sildi.
+## git checkout master---> "header" branchindeki dosyaları göstermez. Sadece master branchindekileri gösterir
+## git checkout header --> headerdaki dosyalara geçer. 
