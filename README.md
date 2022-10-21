@@ -37,6 +37,7 @@ Switched to a new branch 'footer' ---> hem "footer" adında branch oluşturdu he
 ##git merge ile birleşimlerde, birleşimler commitle bildirilmez. Diğer takım arkadaşları birleştirmeyi anlamaz.
 
 ##git merge --squash footer,
+##git rebase -- sadece bir katılım yapıyor. Değişiklikleri alıyor.
     git commit -m "Footer MAster ile birleştirildi"
 https://aliozgur.gitbooks.io/git101/content/remote_repositoryler/remote_degisiklikleri_entegre_etmek.html
 
