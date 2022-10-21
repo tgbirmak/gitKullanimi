@@ -85,3 +85,8 @@ git push -u origin <your-local-branch-name>
 So if your local branch name is coffee
 
 git push -u origin coffee
+
+git branch -m swift main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
