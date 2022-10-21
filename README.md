@@ -63,7 +63,25 @@ git add: çakışmanın giderildi ve değişiiklik Staging Area'ya alındı
 # Remote 'a yükleme ---> git remote add origin https://github.com/tgbirmak/gitKullanimi.git
 
                                 # git remote -v
-                                
                                 # git add .
                                 # git commit -m "Add existing file"
                                 # git push origin master
+
+
+# nickname of repo default --> origin
+
+
+git pull --allow-unrelated-histories <nick name of repository> <branch name>
+
+like:
+
+git pull --allow-unrelated-histories origin master
+
+# upstream kavramı
+
+The -u flag is specifying that you want to link your local branch to the upstream branch. This will also create an upstream branch if one does not exist. None of these answers cover how i do it (in complete form) so here it is:
+
+git push -u origin <your-local-branch-name>
+So if your local branch name is coffee
+
+git push -u origin coffee
