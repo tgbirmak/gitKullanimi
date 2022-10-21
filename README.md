@@ -63,3 +63,7 @@ git add: çakışmanın giderildi ve değişiiklik Staging Area'ya alındı
 # Remote 'a yükleme ---> git remote add origin https://github.com/tgbirmak/gitKullanimi.git
 
                                 # git remote -v
+                                
+                                # git add .
+                                # git commit -m "Add existing file"
+                                # git push origin master
