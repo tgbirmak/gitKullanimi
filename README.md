@@ -1,25 +1,25 @@
 
-#Github Notları
+# Github Notları
 
-##git init
-##git add
-##git commit -m "First Commit"
-##git log
-##git log -n 3 (sadece üçüncü satırı göster) 
-##git commit --amend -m "Master2 | Bu amendle eklenmiş bir commit" ---> Commit eklemeden, son commite dahil etme
-##git revert commitID ---> 395049064 en az 7 tane karakteri kopyala yapıştır---> son yapılan değişikler çalışmadan da geri alınır. 
-##revert'ün revertü yapılabilir.
-##git reset --hard 93085943085 commitleri ID ye göre siler. (HEAD diğer kalan commit olur)
+## git init
+## git add
+## git commit -m "First Commit"
+## git log
+## git log -n 3 (sadece üçüncü satırı göster) 
+## git commit --amend -m "Master2 | Bu amendle eklenmiş bir commit" ---> Commit eklemeden, son commite dahil etme
+## git revert commitID ---> 395049064 en az 7 tane karakteri kopyala yapıştır---> son yapılan değişikler çalışmadan da geri alınır. 
+## revert'ün revertü yapılabilir.
+## git reset --hard 93085943085 commitleri ID ye göre siler. (HEAD diğer kalan commit olur)
 
-##git diff ea23c0195c26ea9c3444e1238227e53ec6fe97d3..064b3f54dcd8ac8573a8b68984eb0bcbd19acab9 index.md
+## git diff ea23c0195c26ea9c3444e1238227e53ec6fe97d3..064b3f54dcd8ac8573a8b68984eb0bcbd19acab9 index.md
 
-##git branch ---> varolan branchler
-##git branch header ---> "header" adında bir branch oluştur.
+## git branch ---> varolan branchler
+## git branch header ---> "header" adında bir branch oluştur.
 
-##git checkout -b footer
+## git checkout -b footer
 Switched to a new branch 'footer' ---> hem "footer" adında branch oluşturdu hem de onu aktif etti.
 
-##git checkout master --> "master" branch ine geç.
+## git checkout master --> "master" branch ine geç.
 ## git branch -D footer ---> "footer" branchini sildi.
 ## git checkout master---> "header" branchindeki dosyaları göstermez. Sadece master branchindekileri gösterir
 ## git checkout header --> headerdaki dosyalara geçer.
@@ -28,16 +28,16 @@ Switched to a new branch 'footer' ---> hem "footer" adında branch oluşturdu he
 ## git checkout -b ile oluşturulan branchler, mevcut branch imizi referans alır.
 ## git stash ---> commit öncesi değişiklileri kaydeder.
 ## git stash list --> bu değişiklikleri listeler.
-##git stash pop ---> değişiklikleri başa alır.Stash listten kaldırır.
+## git stash pop ---> değişiklikleri başa alır.Stash listten kaldırır.
 ## git stash apply --> geri alır, stash listten kaldırmaz
 ## git merge header  --> master branchindeyken header branchi üzerindeki değişiklikleri ekledi. Headerda yapılan Commitleri de ekledi.
 
-##(BU NEDENLE COMMİTLERİN BAŞINDA BRANCH İSMİ VE SIRASI YAZMALI. "Header 1 | birinci değişiklik gibi")
+## (BU NEDENLE COMMİTLERİN BAŞINDA BRANCH İSMİ VE SIRASI YAZMALI. "Header 1 | birinci değişiklik gibi")
 
-##git merge ile birleşimlerde, birleşimler commitle bildirilmez. Diğer takım arkadaşları birleştirmeyi anlamaz.
+## git merge ile birleşimlerde, birleşimler commitle bildirilmez. Diğer takım arkadaşları birleştirmeyi anlamaz.
 
-##git merge --squash footer,
-##git rebase -- sadece bir katılım yapıyor. Değişiklikleri alıyor.
+## git merge --squash footer,
+## git rebase -- sadece bir katılım yapıyor. Değişiklikleri alıyor.
     git commit -m "Footer MAster ile birleştirildi"
 https://aliozgur.gitbooks.io/git101/content/remote_repositoryler/remote_degisiklikleri_entegre_etmek.html
 
@@ -60,6 +60,6 @@ git merge : değişiklikleri otomatik merge et çakışma varsa bir sonraki adı
 Çakışma olan dosyalarınızı açın ve çakışmaları düzeltin
 git add: çakışmanın giderildi ve değişiiklik Staging Area'ya alındı
 
-#Remote 'a yükleme ---> git remote add origin https://github.com/tgbirmak/gitKullanimi.git
+# Remote 'a yükleme ---> git remote add origin https://github.com/tgbirmak/gitKullanimi.git
 
                                 # git remote -v
