@@ -2,7 +2,7 @@
 # Github Notları
 
 ## git init
-## git add
+## git add .
 ## git commit -m "First Commit"
 ## git log
 ## git log -n 3 (sadece üçüncü satırı göster) 
@@ -94,3 +94,8 @@ git remote set-head origin -a
 # set-head
 
 ## git remote set-head origin -a
+
+
+Konudan ayrı not;
+Dosya oluşturma ; touch "Dosya Folder Path"
+Terminal Kapatma; Command Q
